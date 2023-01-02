@@ -1,0 +1,380 @@
+
+/***** font style *****/
+@font-face {
+    font-family: AvenirLTProLight;
+    src: url(fonts/AvenirLTP/AvenirLTProLight.otf);
+}
+
+@font-face {
+    font-family: AvenirLTProHeavy;
+    src: url(fonts/AvenirLTP/AvenirLTProHeavy.otf);
+}
+
+@font-face {
+    font-family: LuloClean;
+    src: url(fonts/Lulo/LuloCleanW01OneBold.ttf);
+}
+
+@font-face {
+    font-family: OswaldVari;
+    src: url(fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Parisienne;
+    src: url(fonts/Parisienne/Parisienne-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/***** reusable *****/
+
+.row {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.middle {
+    margin: 0 auto;
+}
+
+.gap {
+    padding:0 12px ;
+}
+
+.bolder-text {
+    font-family: AvenirLTProHeavy;
+    line-height: 1.5;
+}
+
+.center-block {
+    margin-left: 10px;
+}
+
+.border-line {
+    height: 300px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.border-line p {
+    margin-top: 2%;
+    padding: 2% 15px;
+    
+}
+
+/* body {
+} */
+
+/***** header *****/
+
+.background-img {
+    background: url("images/uvodni_foto.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 70vw;
+}
+
+.background-aboutme {
+    background: url("images/back_omne.webp");
+    background-size: cover;
+    background-position: 70% 30%;
+    height: 140vh;
+}
+
+#logo img {
+    width: 270px;
+    position: absolute;
+    top: 3%;
+    left: 17%;
+}
+
+#logo1 img {
+    width: 270px;
+    position: absolute;
+    top: 3%;
+    left: 17%;
+}
+
+nav ul {
+    float: right;
+    margin-top: 5%;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: #F6ebe4;
+    border-radius: 20px;    
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px 10px;
+
+}
+
+nav ul li a {
+font-family: AvenirLTProLight;
+text-decoration: none;
+font-size: 20px;
+color: black;
+padding-top: 50%;
+
+}
+
+nav ul a:hover,
+.aktivni a {
+    border-bottom: 2px solid black;
+}
+
+/***** headline H *****/
+h1, h2 {
+    margin-top: 6%;
+    margin-bottom: 2%;
+    font-family: OswaldVari;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700px;
+    letter-spacing: 5px;
+    border-top: 1px solid black;
+}
+/***** page about me *****/
+.font-aboutme {
+    font-family: AvenirLTProLight;
+    text-transform: none;
+    font-weight: 400px;
+    margin-top: 10%;
+    margin-bottom:5px;
+    font-size: 35px;
+    font-weight: 500px;
+    letter-spacing: 5px;
+    border-bottom: 1px solid black;
+}
+
+h4 {
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.colum2 {
+    margin-top: 2%;   
+}
+
+.colum2 p {
+    padding-top: 2%;   
+}
+
+.colum2 img {
+    max-width: 270px;
+    padding: 2%;
+    border-radius: 250px;    
+}
+
+.odstavce2 {
+    background-color: #F6ebe4;
+    margin: 0 auto;
+    margin-top: 2%;
+    text-align: center;
+    padding: 1% 4%;
+    border-radius: 15px;
+}
+
+/***** Text *****/
+section p {
+    margin-bottom: 14px;
+    font-family: AvenirLTProLight;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.08em;
+
+    margin-left: 0;
+}
+
+
+.right-img {
+    text-align: center;  
+    
+    
+}
+.right-img img {
+    max-width: 400px;
+    text-align: center; 
+    
+}
+
+.aboutme-edge img {
+    padding: 12px;
+}
+
+.odstavce {
+    background-color: #F6ebe4;
+    margin: 0 auto;
+    margin-top: 1%;
+    text-align: center;
+    padding: 4%;
+    border-radius: 15px;
+}
+
+.odstavec-right {
+    text-align: right;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.cti_vic-tlacitko {
+    float: right;
+    text-decoration: none;
+    background: black;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.cti_vic-tlacitko:hover {
+    background-color: white;
+    color: black;
+}
+
+.coaching {
+    margin: 0 auto;
+}
+
+.liner {
+    margin-top: 1%;
+    padding: 2% 0;
+    background-color: #e4c6b8;
+    background-size: cover;
+}
+
+.liner p {
+    margin: 0 auto;
+    text-align: center;
+    font-family: OswaldVari;
+    color: white;
+    font-size: 32px;
+    font-weight: 400px;
+}
+
+.liner1 {
+    margin-top: 3%;
+    padding: 6% 0;
+    background-color: #e4c6b8;
+    background-size: cover;
+}
+
+.liner1 p {
+    margin: 0 auto;
+    text-align: center;
+    font-family: OswaldVari;
+    color: white;
+    font-size: 32px;
+    font-weight: 400px;
+}
+
+.list{
+    background-color: #F6ebe4;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 2%;
+    text-align: left;
+    border-radius: 15px;   
+}
+
+.list p {
+    font-family: AvenirLTProHeavy;
+}
+
+.list ol {
+    line-height: 2;
+}
+
+.list ol li {
+    font-family: AvenirLTProLight;     
+}
+
+
+.priceimg {
+    text-align: center;
+}
+
+.priceimg img {
+    width: 170px;
+    height: auto;
+}
+
+.contacts a {
+    
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    font-size: 22px;
+    margin-top: 10px;
+    
+}
+.contact {
+    height: 450px;
+}
+
+.contact p {
+    margin: 6% 12px;
+    
+} 
+
+.contacts img {
+    width: 35px;
+    height: auto;
+}
+
+.contacts a span {
+    position: relative;
+    bottom: 12px;
+    font-size: 18px;
+    color: black;
+    margin-left: 15px;
+    position: 50% 50%;
+    
+}
+
+.signature p {
+    float: right;
+    font-family: Parisienne;
+    font-size: 48px;
+    margin: 12px 0;
+}
+footer {
+    
+    text-align: center;
+    border-top: 1px solid black;
+}
+
+footer p {
+    margin: 1%;
+}
+
+/***** Scroll-page *****/
+.scroll-container {
+    scroll-behavior: smooth;
+}
+  
+.scroll-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 5em;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
